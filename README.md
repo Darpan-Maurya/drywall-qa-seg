@@ -108,10 +108,10 @@ mask = predict("your_wall_image.jpg", "segment crack")
 Image.fromarray(mask, mode="L").save("output__segment_crack.png")
 print("Mask saved!")
 
-## Output Format
-# Single-channel PNG
-# Values: 0 = background, 255 = defect detected
-# Filename convention:
+# Output Format
+ Single-channel PNG
+ Values: 0 = background, 255 = defect detected
+ Filename convention:
 {image_stem}__{prompt_slug}.png
 
 # Examples:
@@ -139,6 +139,7 @@ img_0107__segment_taping_area.png
 | Model size | 575 MB |
 
 ```
+![Example](/Screenshot (424).png)
 
 ## Failure Notes
 
