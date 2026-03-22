@@ -139,7 +139,7 @@ img_0107__segment_taping_area.png
 | Model size | 575 MB |
 
 ```
-![Example](/Screenshot (424).png)
+<img src="Screenshot (424).png" alt="Cross Verification Model" width="800">
 
 ## Failure Notes
 
